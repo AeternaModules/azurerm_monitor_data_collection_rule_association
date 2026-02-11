@@ -15,7 +15,7 @@ EOT
     data_collection_endpoint_id = optional(string)
     data_collection_rule_id     = optional(string)
     description                 = optional(string)
-    name                        = optional(string, "configurationAccessEndpoint")
+    name                        = optional(string) # Default: "configurationAccessEndpoint"
   }))
 }
 
